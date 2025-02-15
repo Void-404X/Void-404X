@@ -1,6 +1,6 @@
 ![Header](https://github.com/Void-404X/Void-404X/blob/main/accets/header.png)
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Void-404X/Void-404X/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Void-404X/Void-404X/blob/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Void-404X/Void-404X/blob/output/github-snake.svg" />
   <img alt="GitHub Snake animation" src="https://github.com/Void-404X/Void-404X/blob/output/github-snake.svg" />
 </picture>
