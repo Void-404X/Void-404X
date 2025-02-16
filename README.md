@@ -7,7 +7,8 @@
 </picture>
 
 
-## I am a beginner freelancer and software engineer ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Void-404X.Void-404X)
+# I am a beginner freelancer and software engineer <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Void-404X.Void-404X">
+
 
 
 
