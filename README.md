@@ -9,8 +9,6 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/Void-404X/Void-404X/output/github-snake.svg" />
 </picture>
 
-аы
-
 
 ```
 ████████████████████████████████████████████████████████████  ██╗  ██╗███████╗██╗     ██╗      ██████╗
