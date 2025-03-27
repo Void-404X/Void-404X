@@ -35,7 +35,6 @@
 ```
 
 # 💫 About Me:
-About Me:
 I am a 1st-year Software Engineering student at Asia Pacific University (APU).<br>
 I am 20 years old and passionate about learning new technologies.<br>
 I enjoy exploring programming languages, frameworks, and development approaches.<br>
