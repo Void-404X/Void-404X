@@ -35,7 +35,10 @@
 ```
 
 # 💫 About Me:
-I'm currently studing<br>
+About Me:
+I am a 1st-year Software Engineering student at Asia Pacific University (APU).<br>
+I am 20 years old and passionate about learning new technologies.<br>
+I enjoy exploring programming languages, frameworks, and development approaches.<br>
 
 
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b" width="500">
