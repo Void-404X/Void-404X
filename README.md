@@ -56,7 +56,8 @@ I enjoy exploring programming languages, frameworks, and development approaches.
 ![](https://github-profile-trophy.vercel.app/?username=Void-404X&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
-<br><br><br>
 
-### ✍️ Random Dev Quote
+
+### 🚀 Крутая цитата для разработчиков  
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=darkgithub)
+
