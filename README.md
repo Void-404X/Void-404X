@@ -1,8 +1,9 @@
 
 # I am a beginner freelancer and software engineer <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Void-404X.Void-404X">
+![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=100&pause=100&color=F7B42C&center=true&vCenter=true&multiline=true&width=435&height=60&lines=%F0%9F%91%8B+%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+Alisher!;%F0%9F%9A%80+Software+Engineer+%7C+Full-Stack+Developer)
+
 
 ![Header](https://github.com/Void-404X/Void-404X/blob/main/accets/header.png)
-![GitHub Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Добро%20пожаловать%20в%20мой%20профиль!&fontSize=30&fontAlign=50&fontColor=fff)
 
 
 <picture>
