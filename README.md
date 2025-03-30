@@ -1,4 +1,5 @@
-![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=650&size=24&duration=3000&pause=2000&color=FFFFFF&center=false&vCenter=false&multiline=false&width=1000&height=60&lines=%F0%9F%91%8B+Hello%2C+I'm+Alisher!+%F0%9F%9A%80+Software+Engineer;%F0%9F%91%8B+Привет%2C+я+Алишер!+%F0%9F%9A%80+Инженер+программного+обеспечения)
+![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=650&size=24&duration=3000&pause=2000&color=FFFFFF&center=false&vCenter=false&multiline=false&width=1000&height=60&lines=%F0%9F%91%8B+Hello%2C+I'm+Alisher!+%F0%9F%9A%80+Software+Engineer;%F0%9F%91%8B+Привет%2C+я+Алишер!+%F0%9F%9A%80+Инженер+программного+обеспечения;%F0%9F%91%8B+Hola%2C+soy+Alisher!+%F0%9F%9A%80+Ingeniero+de+software;%F0%9F%91%8B+Bonjour%2C+je+suis+Alisher!+%F0%9F%9A%80+Ing%C3%A9nieur+logiciel)
+
 
 
 
