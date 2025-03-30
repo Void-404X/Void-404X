@@ -16,6 +16,15 @@
 </div>
 
 
+            
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+        
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-plain.svg" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
+          
+
+
 
 # 💫 About Me:
 I am a 1st-year Software Engineering student at Asia Pacific University (APU).<br>
