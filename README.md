@@ -16,7 +16,11 @@
 
 
 <div>
-  ![](https://github-readme-stats.vercel.app/api?username=Void-404X&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=void-404x&layout=compact&langs_count=16&theme=dracula"/>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Void-404X&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Void-404X&layout=compact&langs_count=10&theme=dracula" alt="Top Languages" height="180em"/>
+</div>
+
 </div>
 
 
