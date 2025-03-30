@@ -1,6 +1,6 @@
 
 # I am a beginner freelancer and software engineer <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Void-404X.Void-404X">
-![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2000&pause=100&color=FFFFFF&center=false&vCenter=false&multiline=false&width=600&height=60&lines=%F0%9F%91%8B+%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%90%D0%BB%D0%B8%D1%88%D0%B5%D1%80!+%F0%9F%9A%80+Software+Engineer)
+![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=5000&pause=100&color=FFFFFF&center=false&vCenter=false&multiline=false&width=600&height=60&lines=%F0%9F%91%8B+%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%90%D0%BB%D0%B8%D1%88%D0%B5%D1%80!+%F0%9F%9A%80+Software+Engineer)
 
 
 
