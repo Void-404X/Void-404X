@@ -21,11 +21,11 @@
   <h3>🚀 Tech Stack</h3>
   <p>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="80" height="80" alt="Next.js" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="80" height="80" alt="Django"  />    
-     <i class="devicon-django-plain"></i>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" width="80" height="80" alt="Django" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" width="80" height="80" alt="TypeScript" />
   </p>
 </div>
+
 
 
 
