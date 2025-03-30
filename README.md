@@ -20,11 +20,12 @@
 <div align="center">
   <h3>🚀 Tech Stack</h3>
   <p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="80" height="80" alt="Next.js" />
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/NextJS-Dark.svg" width="80" height="80" alt="Next.js" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" width="80" height="80" alt="Django" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" width="80" height="80" alt="TypeScript" />
   </p>
 </div>
+
 
 
 
