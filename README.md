@@ -39,10 +39,8 @@
 
 
 
-# 💫 About Me:
-I am a 1st-year Software Engineering student at Asia Pacific University (APU).<br>
-I am 20 years old and passionate about learning new technologies.<br>
-I enjoy exploring programming languages, frameworks, and development approaches.<br>
+![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=650&size=24&duration=3000&pause=2000&color=FFFFFF&center=false&vCenter=false&multiline=true&width=1000&height=120&lines=%F0%9F%92%AB+About+Me;%E2%9C%8F%EF%B8%8F+I+am+a+1st-year+Software+Engineering+student+at+Asia+Pacific+University+(APU).;%F0%9F%A7%91%E2%80%8D%F0%9F%8E%93+I+am+20+years+old+and+passionate+about+learning+new+technologies.;%F0%9F%92%BB+I+enjoy+exploring+programming+languages%2C+frameworks%2C+and+development+approaches.)
+
 
 
 
