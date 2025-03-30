@@ -1,4 +1,4 @@
-#![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=2000&color=FFFFFF&center=false&vCenter=false&multiline=false&width=650&height=60&lines=%F0%9F%91%8B+Hello%2C+I'm+Alisher!+%F0%9F%9A%80+Software+Engineer)
+![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=2000&color=FFFFFF&center=false&vCenter=false&multiline=false&width=650&height=60&lines=%F0%9F%91%8B+Hello%2C+I'm+Alisher!+%F0%9F%9A%80+Software+Engineer)
 
 
 
