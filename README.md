@@ -2,6 +2,7 @@
 # I am a beginner freelancer and software engineer <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Void-404X.Void-404X">
 
 ![Header](https://github.com/Void-404X/Void-404X/blob/main/accets/header.png)
+![GitHub Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Добро%20пожаловать%20в%20мой%20профиль!&fontSize=30&fontAlign=50&fontColor=fff)
 
 
 <picture>
