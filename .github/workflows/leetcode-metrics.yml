@@ -21,6 +21,7 @@ jobs:
           
           plugin_leetcode: yes
           plugin_leetcode_user: cC0xUn5Mtl
+          plugin_leetcode_title: "LeetCode statistics for Void-404x"
           plugin_leetcode_sections: solved, skills, recent
           plugin_leetcode_limit_skills: 10
           plugin_leetcode_limit_recent: 2
