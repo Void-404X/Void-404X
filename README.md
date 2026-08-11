@@ -38,7 +38,7 @@
 
 ---
 
-## 📊 GitHub & LeetCode Statistics
+<!-- ## 📊 GitHub & LeetCode Statistics
 
 <div align="center">
 
@@ -57,7 +57,7 @@
 
   <img src="./github-metrics-leetcode.svg" alt="LeetCode Metrics" />
 
-</div>
+</div> -->
 
 <br />
 
