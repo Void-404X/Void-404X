@@ -16,8 +16,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
 
-          plugin_leetcode: yes
-          plugin_leetcode_user: cC0xUn5Mtl
-          plugin_leetcode_sections: solved, skills, recent
-          plugin_leetcode_limit_skills: 10
-          plugin_leetcode_limit_recent: 2
+          plugin_lines: yes
+          plugin_isocalendar: yes
+          plugin_achievements: yes
