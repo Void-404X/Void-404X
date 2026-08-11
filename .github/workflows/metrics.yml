@@ -1,9 +1,7 @@
 name: Metrics
 on:
-  # Автоматический запуск каждые 12 часов
   schedule:
     - cron: "0 */12 * * *"
-  # Возможность запускать вручную из вкладки Actions
   workflow_dispatch:
 
 jobs:
@@ -12,15 +10,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Токен, который вы сохранили в Secrets под именем METRICS_TOKEN
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Ваш логин
           user: Void-404X
           template: classic
           base: header, activity, community, repositories, metadata
 
-          # Дополнительные фичи (по желанию можно убрать/добавить)
-          plugin_lines: yes
-          plugin_isocalendar: yes
-          plugin_achievements: yes
+          plugin_leetcode: yes
+          plugin_leetcode_user: cC0xUn5Mtl
+          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_limit_skills: 10
+          plugin_leetcode_limit_recent: 2
