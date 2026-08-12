@@ -2,9 +2,9 @@
 
 <h1><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=61AFEF&center=true&vCenter=true&width=800&lines=Hi!+I'm+a+Backend+Engineer;Backend+%26+Microservices+Engineer;Building+Reliable+Systems" alt="Typing SVG" /></h1>
 
-<p align="center">
+<a align="center">
   <img src="https://raw.githubusercontent.com/Void-404X/Void-404X/main/name.svg" alt="Iliyev Alisher" />
-</p>
+</a>
 
   <p align="center">
     <b>Building high-load microservices, distributed systems, and modern web applications.</b>
