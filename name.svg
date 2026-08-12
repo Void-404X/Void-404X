@@ -36,7 +36,7 @@
         .gradient-text {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
           font-weight: 900;
-          font-size: 64px;
+          font-size: 72px;
           /* Градиент текста */
           background: linear-gradient(-45deg, #e01cd5, #1fddff, #7928ca, #ff0080);
           background-size: 300% 300%;
@@ -45,7 +45,7 @@
           animation: gradient 6s ease infinite;
         }
 
-        /* Стили снежинок */
+        /* Стили и позиции снежинок */
         .snowflake {
           position: absolute;
           top: -10px;
@@ -55,11 +55,11 @@
           animation: snowflakes 4s linear infinite;
         }
 
-        .sf1 { left: 10%; animation-delay: 0s; font-size: 14px; }
-        .sf2 { left: 25%; animation-delay: 1.5s; font-size: 20px; }
-        .sf3 { left: 45%; animation-delay: 0.7s; font-size: 12px; }
-        .sf4 { left: 70%; animation-delay: 2.2s; font-size: 18px; }
-        .sf5 { left: 88%; animation-delay: 1.1s; font-size: 15px; }
+        .sf1 { left: 15%; animation-delay: 0s; font-size: 14px; }
+        .sf2 { left: 30%; animation-delay: 1.5s; font-size: 20px; }
+        .sf3 { left: 48%; animation-delay: 0.7s; font-size: 12px; }
+        .sf4 { left: 65%; animation-delay: 2.2s; font-size: 18px; }
+        .sf5 { left: 80%; animation-delay: 1.1s; font-size: 15px; }
       </style>
 
       <div class="container">
@@ -70,8 +70,8 @@
         <div class="snowflake sf4">❄</div>
         <div class="snowflake sf5">❄</div>
 
-        <!-- Ваш текст -->
-        <h1 class="gradient-text">Iliyev Alisher</h1>
+        <!-- Ваш текст / Имя -->
+        <h1 class="gradient-text">Ваше Имя</h1>
       </div>
     </div>
   </foreignObject>
