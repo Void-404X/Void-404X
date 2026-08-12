@@ -2,38 +2,30 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-
+        /* 1. Анимация градиента */
         @keyframes gradientText {
           0% { background-position: 0% 50%; }
           50% { background-position: 100% 50%; }
           100% { background-position: 0% 50%; }
         }
 
-        /* 2. Постоянное движение текста (взлет + zoom + поворот + свечение) */
+        /* 2. Движение текста (взлет + zoom + поворот) */
         @keyframes fullMotion {
-          0% {
-            transform: translateY(0px) scale(1) rotate(0deg);
-            filter: drop-shadow(0px 0px 8px rgba(224, 28, 213, 0.4));
-          }
-          25% {
-            transform: translateY(-5px) scale(1.03) rotate(-3deg);
-            filter: drop-shadow(0px 0px 18px rgba(31, 221, 255, 0.7));
-          }
-          50% {
-            transform: translateY(-10px) scale(1.06) rotate(0deg);
-            filter: drop-shadow(0px 0px 25px rgba(224, 28, 213, 0.9));
-          }
-          75% {
-            transform: translateY(-5px) scale(1.03) rotate(3deg);
-            filter: drop-shadow(0px 0px 18px rgba(31, 221, 255, 0.7));
-          }
-          100% {
-            transform: translateY(0px) scale(1) rotate(0deg);
-            filter: drop-shadow(0px 0px 8px rgba(224, 28, 213, 0.4));
-          }
+          0% { transform: translateY(0px) scale(1) rotate(0deg); }
+          25% { transform: translateY(-5px) scale(1.03) rotate(-3deg); }
+          50% { transform: translateY(-10px) scale(1.06) rotate(0deg); }
+          75% { transform: translateY(-5px) scale(1.03) rotate(3deg); }
+          100% { transform: translateY(0px) scale(1) rotate(0deg); }
         }
 
-        /* 3. Двойная анимация снежинок: падение + покачивание в стороны */
+        /* 3. Анимация бегающего светового луча */
+        @keyframes sweepLight {
+          0% { background-position: -200% 0; }
+          50% { background-position: 200% 0; }
+          100% { background-position: -200% 0; }
+        }
+
+        /* 4. Анимация снежинок */
         @keyframes snowflakes-fall {
           0% { top: -10%; }
           100% { top: 100%; }
@@ -56,11 +48,24 @@
           background: transparent;
         }
 
-        .gradient-text {
+        .text-wrapper {
+          position: relative;
+          display: inline-block;
+          animation: fullMotion 4s linear infinite;
+          transform-origin: center center;
+          z-index: 1;
+        }
+
+        /* Фоновая тень, которая повторяет градиент текста */
+        .text-shadow-glow {
+          position: absolute;
+          top: 0;
+          left: 0;
           margin: 0;
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
           font-weight: 900;
           font-size: 64px;
+          white-space: nowrap;
           
           background: linear-gradient(-45deg, #e01cd5, #1fddff, #7928ca, #ff0080);
           background-size: 300% 300%;
@@ -68,17 +73,64 @@
           background-clip: text;
           -webkit-text-fill-color: transparent;
           
-          display: inline-block;
-          animation: 
-            gradientText 4s linear infinite,
-            fullMotion 4s linear infinite;
-          
-          transform-origin: center center;
-          will-change: transform, filter;
+          /* Размытие создает мягкое объемное свечение с оригинальными цветами */
+          filter: blur(16px) brightness(1.4);
+          opacity: 0.85;
+          animation: gradientText 4s linear infinite;
           z-index: 1;
         }
 
-        /* Стили снежинок с двойной анимацией */
+        /* Основной текст с градиентом */
+        .gradient-text {
+          position: relative;
+          margin: 0;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          font-weight: 900;
+          font-size: 64px;
+          white-space: nowrap;
+          
+          background: linear-gradient(-45deg, #e01cd5, #1fddff, #7928ca, #ff0080);
+          background-size: 300% 300%;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          
+          animation: gradientText 4s linear infinite;
+          z-index: 2;
+        }
+
+        /* Накладываемый луч света */
+        .light-shine {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          font-weight: 900;
+          font-size: 64px;
+          white-space: nowrap;
+          
+          /* Градиент узкого белого луча */
+          background: linear-gradient(
+            110deg, 
+            transparent 35%, 
+            rgba(255, 255, 255, 0.9) 50%, 
+            transparent 65%
+          );
+          background-size: 200% 100%;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          
+          animation: sweepLight 3s ease-in-out infinite;
+          mix-blend-mode: overlay;
+          pointer-events: none;
+          z-index: 3;
+        }
+
+        /* Снежинки */
         .snowflake {
           position: absolute;
           top: -10%;
@@ -90,7 +142,6 @@
           cursor: default;
           z-index: 10;
           
-          /* Применяем падение (8s) и покачивание (3s) */
           animation-name: snowflakes-fall, snowflakes-shake;
           animation-duration: 8s, 3s;
           animation-timing-function: linear, ease-in-out;
@@ -98,7 +149,6 @@
           animation-play-state: running, running;
         }
 
-        /* Настройка задержек и разброса по ширине */
         .snowflake:nth-of-type(1) { left: 5%;  animation-delay: 0s, 0s; }
         .snowflake:nth-of-type(2) { left: 15%; animation-delay: -2s, -1s; }
         .snowflake:nth-of-type(3) { left: 28%; animation-delay: -5s, -0.5s; }
@@ -111,7 +161,6 @@
       </style>
 
       <div class="container">
-
         <div class="snowflake">❅</div>
         <div class="snowflake">❆</div>
         <div class="snowflake">❅</div>
@@ -122,8 +171,16 @@
         <div class="snowflake">❆</div>
         <div class="snowflake">❅</div>
 
-
-        <h1 class="gradient-text">Iliyev Alisher</h1>
+        <div class="text-wrapper">
+          <!-- Слой 1: Размытый дубликат текста для динамического свечения/тени -->
+          <h1 class="text-shadow-glow">Iliyev Alisher</h1>
+          
+          <!-- Слой 2: Основной текст -->
+          <h1 class="gradient-text">Iliyev Alisher</h1>
+          
+          <!-- Слой 3: Бегающий луч света -->
+          <h1 class="light-shine">Iliyev Alisher</h1>
+        </div>
       </div>
     </div>
   </foreignObject>
