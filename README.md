@@ -6,6 +6,8 @@
   <img src="https://raw.githubusercontent.com/Void-404X/Void-404X/main/name.svg" alt="Iliyev Alisher" />
 </h1>
 
+<img src="https://raw.githubusercontent.com/Void-404X/Void-404X/main/name.svg?v=1" />
+
   <p align="center">
     <b>Building high-load microservices, distributed systems, and modern web applications.</b>
   </p>
